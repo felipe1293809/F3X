@@ -1,7 +1,7 @@
 
 local SERVER_URL = "https://marita-streetless-shani.ngrok-free.dev"  
-local SYNC_INTERVAL = 2       
-local UPDATE_DEBOUNCE = 0.5    
+local SYNC_INTERVAL = 3     
+local UPDATE_DEBOUNCE = 3    
 
 local EXPERIENCE_ID = tostring(game.PlaceId)
 print("[F3X Sync] Experience ID: " .. EXPERIENCE_ID)
