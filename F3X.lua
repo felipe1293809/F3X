@@ -1,4 +1,3 @@
-
 local SERVER_URL = "https://marita-streetless-shani.ngrok-free.dev"  
 local SYNC_INTERVAL = 3     
 local UPDATE_DEBOUNCE = 3    
@@ -61,6 +60,7 @@ local partUpdateCooldowns = {}
 local connectedParts = {}     
 local processedParts = {}     
 local ignoredInstances = {}   
+local groupModelsCache = {}   
 
 local function countTable(t)
     local n = 0
